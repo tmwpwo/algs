@@ -1,3 +1,8 @@
+// this is solution to kata: https://www.codewars.com/kata/57ea70aa5500adfe8a000110
+// but I change it a bit, trying to do zero copy solution
+// basically trying to avoid usless allocations and copying the original memory 
+// so the alg works on the acutal input
+
 package main
 
 import "fmt"
