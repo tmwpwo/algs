@@ -24,13 +24,13 @@ func folding(arr *[]int) {
 	(*arr) = (*arr)[:half]
 }
 
-func main() {
-	arr1 := []int{1, 2, 3, 4, 5}
- 	foldArray(&arr1, 1)
-	fmt.Println(arr1) 
+// func main() {
+// 	arr1 := []int{1, 2, 3, 4, 5}
+//  	foldArray(&arr1, 1)
+// 	fmt.Println(arr1) 
 
-	arr2 := []int{1, 2, 3, 4, 5}
-	foldArray(&arr2, 2)
-	fmt.Println(arr2) 
-}
+// 	arr2 := []int{1, 2, 3, 4, 5}
+// 	foldArray(&arr2, 2)
+// 	fmt.Println(arr2) 
+// }
 
